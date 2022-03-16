@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Comic Neue', cursive;
+}
+.homepage{
+    background-image: url("images/bgImage.jpg");
+    background-repeat: no-repeat;
+    height: 753px;
+}
+.left{
+    font-size: large;
+    text-align: center;
+    /* border: 3px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    width:100px;
+    left: 10px;
+    top: 10px; 
+}
+.left img{
+    background-color: aliceblue;
+    width: 60px;
+    height: 60px;
+}
+
+.mid{
+    /* border: 3px solid yellow; */
+    height: 100px;
+    width: 900px;
+    display: block;
+    margin: 0px auto;
+    padding: 20px
+}
+.navbar li{
+    display: inline-block;
+    font-size: 22px;
+    border: 3px solid #848581;
+    border-radius: 7px;
+    background-color: #3a3b3b;
+    margin: 0px 8px;
+    padding: 4px 10px;
+    transition: transform .2s;
+} 
+#Home:hover ,#About:hover, #Contact:hover, #Calculator:hover{ 
+    transform: scale(1.05);
+    display: inline-block;
+    font-size: 22px;
+    border: 3px solid #b4b5af;
+    border-radius: 7px;
+    background-color: #000000;
+    margin: 0px 8px;
+    padding: 4px 10px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.right{
+    /* border: 3px solid yellow; */
+    position: absolute;
+    /* width: 150px; */
+    right: 20px;
+    top: 20px;
+    display: inline-block;
+}
+.rightbtn img{
+    width: 35px;
+    height: 30px;
+    padding: 3px 2px 0px 2px;
+}
+.rightbtn{
+    width: 50px;
+    height: 50px;
+    margin: 2px 6px;
+    padding: 2px 2px;
+    border-radius: 29px;
+    cursor: pointer;
+}
+.rightbtn:hover{
+    transform: scale(1.07);
+}
+.container{
+    border: 2px solid;
+    text-align: center;
+    padding: 10px 50px 20px 50px;
+    margin: 100px 55px;
+    width: 540px;
+    height: 480px;
+    border-radius: 10px;
+}
+.container h2{
+    margin: 20px 2px;
+}
+.container input, button{
+    color:black;    
+}
+.form_group input{
+    text-align: center;
+    width: 400px;
+    display: block;
+    font-size: 17px;
+    margin: 12px auto;
+    padding: 4px 20px;
+    border-radius: 4px;
+}
+.form_group:hover{
+    transform: scale(1.03);
+}
+.formButton{
+    border: 3px solid #b4b5af;
+    border-radius: 7px;
+    background-color: #3a3b3b;
+    color: white;
+    font-size: 17px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin: 30px auto;
+    padding: 4px 10px 30px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.formButton:hover{
+    transform: scale(1.07);
+}
